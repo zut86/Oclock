@@ -4,7 +4,7 @@
 
 Nécessite PostgreSQL et Nodejs !
 
-Pour l'initialisation, il faut créer un utilisateur au niveau de la base de données (login/mot de passe) dans le fichier "helper/data"
+Pour l'initialisation, il faut créer un utilisateur au niveau de la base de données (login/mot de passe) dans le fichier "helper/data".
 Une fois l'utilisateur créé, il suffit de lancer node server.js pour que tout soit créé et le jeu opérationnel.
 
 Description de l'arborescence :
