@@ -19,16 +19,28 @@ Description de l'arborescence :
 -node_modules : ensemble des modules npm (express, pug...)
 
 -public : dossier public pour les CSS, javascript et images
+
 --css : dossier contenant les CSS
+
 ---portrait : dossier pour les fichiers CSS pour les écrans de format portrait
+
 ---landscape : dossier pour les fichiers CSS pour les écrans de format paysage
+
 ---game.css : fichier CSS de la page du jeu (/game)
+
 ---home.css : fichier CSS de la homepage (/)
+
 --js : dossier contenant les fichiers javascripts propres aux pages
+
 ---game.js : fichier JS du jeu
+
 ---home.js : fichier JS de la homepage
+
 --img : dossier contenant les images
 
+
 -view : dossier contenant les vues PUG
+
 --home.pug : fichier pour la homepage
+
 --game.pug : fichier pour le jeu
