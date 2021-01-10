@@ -10,13 +10,22 @@ Une fois l'utilisateur créé, il suffit de lancer node server.js pour que tout 
 Description de l'arborescence :
 
 -helper : dossier contenant tous les fichiers gérant le code métier du site
+
 --card.js : fichier de gestion des cartes
+
 --data.js : fichier de gestion du CRUD
+
 --game.js : fichier de gestion des parties
+
 --init.js : fichier d'initialisation de la base de donées
+
 --page.js : fichier de gestions des requêtes (get/post) suivant les urls demandées
 
+----------------------------------------------------------------
+
 -node_modules : ensemble des modules npm (express, pug...)
+
+----------------------------------------------------------------
 
 -public : dossier public pour les CSS, javascript et images
 
@@ -38,6 +47,7 @@ Description de l'arborescence :
 
 --img : dossier contenant les images
 
+----------------------------------------------------------------
 
 -view : dossier contenant les vues PUG
 
