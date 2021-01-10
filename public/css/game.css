@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    background-color: rgb(243, 240, 233);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+div{
+    position:absolute;
+    top:10%;
+    left: 0;
+    right: 0;
+    bottom: 20%;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+ }
+
+card{
+    margin:1vh;
+    background-image:linear-gradient(to left, #d53a3a, #6bd53a);
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor:pointer;
+    border:2px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to left, #d53a3a, #6bd53a);
+}
+
+progress{
+    position:absolute;
+    width: 80%;
+    height:5vh;
+    margin-top: 5vw;
+    margin-left: 10%;
+    background-image:linear-gradient(to left, #d53a3a, #6bd53a);
+}

@@ -1,0 +1,8 @@
+div{
+    grid-template-columns: 10vh 10vh 10vh 10vh;
+    grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+}
+
+progress{
+    top:90%;
+}

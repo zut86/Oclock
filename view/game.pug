@@ -1,0 +1,48 @@
+doctype
+html(lang="fr")
+	head
+		meta(name='viewport', content='width=device-width, user-scalable=no')
+		title Memory
+		meta(name='description', content="Petit jeu dans le style Memory") 
+		meta(name='keywords', content="jeu,memoire,memory")
+		link(rel='stylesheet', href='/css/game.css')
+		link(rel='stylesheet' media='(orientation: landscape)', href='/css/landscape/game.css')
+		link(rel='stylesheet' media='(orientation: portrait)', href='/css/portrait/game.css')
+		script.
+			const duration = #{duration};
+			const start = #{start};
+			var previousCardID=#{previousCardID};
+			var previousPosition=#{previousCardPosition};
+			let cardReturned = !{cardReturned};
+		script(type="text/javascript", src="/js/game.js")
+	body
+		div
+			card#1
+			card#2
+			card#3
+			card#4
+			card#5
+			card#6
+			card#7
+			card#8
+			card#9
+			card#10
+			card#11
+			card#12
+			card#13
+			card#14
+			card#15
+			card#16
+			card#17
+			card#18
+			card#19
+			card#20
+			card#21
+			card#22
+			card#23
+			card#24
+			card#25
+			card#26
+			card#27
+			card#28
+		progress#time(max="100" value="0")

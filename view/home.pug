@@ -1,0 +1,16 @@
+doctype
+html(lang="fr")
+	head
+		meta(name='viewport', content='width=device-width, user-scalable=no')
+		title Memory
+		meta(name='description', content="Petit jeu dans le style Memory") 
+		meta(name='keywords', content="jeu,memoire,memory")
+		link(rel='stylesheet', href='/css/home.css')
+		script(type="text/javascript", src="/js/home.js")
+	body
+		h1 Memory
+		div
+			input(type="button" onclick="startGame();" value="jouer !")
+		div
+			h2#scoreTitle Meilleurs scores
+			ul#temps

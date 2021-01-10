@@ -1,0 +1,43 @@
+body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display:grid;
+    grid-template-rows: 30vh 40vh 30vh;
+    overflow-y: scroll;
+    font-size: 3vh;
+    background-color: rgb(243, 240, 233);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1,h2,ul,div{
+    position: relative;
+    float:left;
+    text-align: center;
+    width: 100%;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2{
+    display: none;
+}
+
+ul{
+    list-style-type:none;
+    font-size: 1.5em;
+    padding:0;
+    margin:0;
+}
+
+input{
+    font-size: 2em;
+    padding:2em;
+    height: 100%;
+    background-image:linear-gradient(to left, #d53a3a, #6bd53a);
+    color:white;
+}
